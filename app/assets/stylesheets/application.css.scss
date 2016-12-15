@@ -41,6 +41,17 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid #FFFFFF;
+  &:hover, &:focus {
+    background-color: #53cbf1;
+  }
+}
+
 /* nesting in CSS
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
